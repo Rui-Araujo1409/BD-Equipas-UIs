@@ -1,0 +1,15 @@
+name: 'Domain config module tests'
+description: 'Support module for domain config testing.'
+type: module
+package: Testing
+core_version_requirement: ^10.2 || ^11
+hidden: TRUE
+
+dependencies:
+  - domain
+  - domain_config
+
+# Information added by Drupal.org packaging script on 2025-11-12
+version: '2.0.0-beta8'
+project: 'domain'
+datestamp: 1762960264
